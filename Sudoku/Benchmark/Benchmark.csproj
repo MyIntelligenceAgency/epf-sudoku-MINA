@@ -7,6 +7,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\SolverSMT\SolverSMT.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="ExpressionUtils">
+      <HintPath>..\SolverSMT\external\ExpressionUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Z3.LinqBinding">
+      <HintPath>..\SolverSMT\external\Z3.LinqBinding.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
