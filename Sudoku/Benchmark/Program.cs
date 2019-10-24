@@ -19,16 +19,12 @@ namespace Benchmark
 
             Benchmark1();
             //CSP(1);
-         
-
             Console.ReadLine();
         }
 
 
         static void Benchmark1()
         {
-	        
-
 			var solvers = new List<ISudokuSolver>();
            
             foreach (var file in Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory))
@@ -59,17 +55,22 @@ namespace Benchmark
             List<TempsParSudoku> listParSolver = new List<TempsParSudoku>();
 
             Int32 i = 0;
+            bool printSudoku = true;
 
             foreach (var unsudoku in allSudokus)
             {
+                printSudoku = true;
                 foreach (var sudokuSolver in solvers)
                 {
                     var aResoudre = new Sudoku.Core.Sudoku() { Cells = new List<int>(unsudoku.Cells) };
                     chrono.Restart();
                     var resolu = sudokuSolver.Solve(aResoudre);
                     var tempsPasse = chrono.Elapsed;
-                   
-                    Console.WriteLine(resolu.ToString());
+                    if(printSudoku)
+                    {
+                        printSudoku = false;
+                        Console.WriteLine(resolu.ToString());
+                    }  
                     Console.WriteLine(String.Concat("Temps résolu par ", sudokuSolver.GetType().Name, " : " ,tempsPasse.ToString()));
                    
 
@@ -200,20 +201,12 @@ namespace Benchmark
                             sudokus = LoadHardest();
                             bonChoix = true;
                             fichierChoisi = @"/Sudoku_hardest.txt";
-                            break;
-
-
-                            
-
+                            break;                       
                     }
                 }
                 
             }
-
             return sudokus;
         }
-
-
-
     }
 }

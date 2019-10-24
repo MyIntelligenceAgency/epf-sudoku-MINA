@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/NorvigSolver.csproj": {}
+  },
+  "projects": {
+    "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/Core.csproj",
+        "packagesPath": "/Users/timothee/.nuget/packages/",
+        "outputPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timothee/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/NorvigSolver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/NorvigSolver.csproj",
+        "projectName": "NorvigSolver",
+        "projectPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/NorvigSolver.csproj",
+        "packagesPath": "/Users/timothee/.nuget/packages/",
+        "outputPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timothee/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/Core.csproj": {
+                "projectPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
