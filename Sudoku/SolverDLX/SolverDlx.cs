@@ -1,9 +1,9 @@
-﻿using System;
+﻿using DlxLib;
 using Sudoku.Core;
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
-using DlxLib;
 
 namespace SolverDLX
 {
@@ -11,35 +11,21 @@ namespace SolverDLX
     {
         public Sudoku.Core.Sudoku Solve(Sudoku.Core.Sudoku s)
         {
-            s.ToString();
-          /*  for (int i = 0; i < s.Cells.Count; i++) {
-                var grid = new Grid(ImmutableList.Create("" + s.Cells[i]);
-            
-            }
-           
+            int[,] mySudoku = new int[9, 9];
+            for (int i = 0; i < 9; i++) {
+                for (int j = 0; j < 9; j++) {
+                    mySudoku[i, j] = mySudoku[i, j];
+                }
+              }
 
-            */
-            var grid = new Grid(ImmutableList.Create(
-                "6 4 9 7 3",
-                "  3    6 ",
-                "       18",
-                "   18   9",
-                "     43  ",
-                "7   39   ",
-                " 7       ",
-                " 4    8  ",
-                "9 8 6 4 5"));
-
-            grid.Draw();
-
-            var internalRows = BuildInternalRowsForSudoku(s);
+            var internalRows = BuildInternalRowsForSudoku(mySudoku);
             var dlxRows = BuildDlxRows(internalRows);
             var solutions = new Dlx()
                 .Solve(dlxRows, d => d, r => r)
                 .Where(solution => VerifySolution(internalRows, solution))
                 .ToImmutableList();
 
-                return SolutionToGrid(internalRows, solutions.First());
+            return SolutionToGrid(internalRows, solutions.First());
         }
 
         private static IEnumerable<int> Rows => Enumerable.Range(0, 9);
@@ -50,19 +36,13 @@ namespace SolverDLX
             select Tuple.Create(row, col);
         private static IEnumerable<int> Digits => Enumerable.Range(1, 9);
 
-        private static IImmutableList<Tuple<int, int, int, bool>> BuildInternalRowsForSudoku(Sudoku.Core.Sudoku s)
+        private static IImmutableList<Tuple<int, int, int, bool>> BuildInternalRowsForSudoku(int [,] sudoku)
         {
-
-            
-            
-
-            int i = 0;
             var rowsByCols =
                 from row in Rows
                 from col in Cols
-                let value = s.Cells[i]
+                let value = sudoku[row, col]
                 select BuildInternalRowsForCell(row, col, value);
-            i++;
 
             return rowsByCols.SelectMany(cols => cols).ToImmutableList();
         }
@@ -162,7 +142,7 @@ namespace SolverDLX
             return false;
         }
 
-        private static Sudoku.Core.Sudoku SolutionToGrid(
+        private static Sudoku.Core.Sudoku SolutionToSudoku(
             IReadOnlyList<Tuple<int, int, int, bool>> internalRows,
             Solution solution)
         {
@@ -173,14 +153,8 @@ namespace SolverDLX
                 .GroupBy(t => t.Item1, t => t.Item3)
                 .Select(value => string.Concat(value))
                 .ToImmutableList();
-            return Sudoku.Core.Sudoku.Parse(rowStrings);
-        }
 
-        private static void DrawSolution(
-            IReadOnlyList<Tuple<int, int, int, bool>> internalRows,
-            Solution solution)
-        {
-            SolutionToGrid(internalRows, solution).Draw();
+            return new Sudoku.Core.Sudoku(rowStrings);
         }
     }
 }
