@@ -1,12 +1,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{1C04ED3F-EB31-46D2-BA85-DAA8D2C19F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{1C04ED3F-EB31-46D2-BA85-DAA8D2C19F49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{39D9059B-1592-4269-866F-800EB378DD77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark\Benchmark.csproj", "{39D9059B-1592-4269-866F-800EB378DD77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolverSMT", "SolverSMT\SolverSMT.csproj", "{62E78D5E-9A2A-4153-885F-3A72B5C578AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolverSMT", "SolverSMT\SolverSMT.csproj", "{62E78D5E-9A2A-4153-885F-3A72B5C578AA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CSP_IronPyton", "CSP_IronPyton\CSP_IronPyton.pyproj", "{AD3254BC-F67D-434C-B3D1-8B9402F0F7B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,8 @@ Global
 		{62E78D5E-9A2A-4153-885F-3A72B5C578AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E78D5E-9A2A-4153-885F-3A72B5C578AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E78D5E-9A2A-4153-885F-3A72B5C578AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3254BC-F67D-434C-B3D1-8B9402F0F7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3254BC-F67D-434C-B3D1-8B9402F0F7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
