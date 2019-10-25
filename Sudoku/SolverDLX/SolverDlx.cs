@@ -35,8 +35,9 @@ namespace SolverDLX
                 .Solve(dlxRows, d => d, r => r)
                 .Where(solution => VerifySolution(internalRows, solution))
                 .ToImmutableList();
-
-            return SolutionToGrid(internalRows, solutions.First());
+            
+            //return SolutionToGrid(internalRows, solutions.First());
+            return SolutionToSudoku(internalRows, solutions.First(), s);
         }
 
         private static IEnumerable<int> Rows => Enumerable.Range(0, 9);
@@ -155,10 +156,12 @@ namespace SolverDLX
             return false;
         }
 
-        /*   private static Sudoku.Core.Sudoku SolutionToSudoku(
+           private static Sudoku.Core.Sudoku SolutionToSudoku(
                IReadOnlyList<Tuple<int, int, int, bool>> internalRows,
-               Solution solution)
+               Solution solution, Sudoku.Core.Sudoku sudoku)
            {
+            List<int> mySudoku = new List<int>();
+            Sudoku.Core.Sudoku mySudokuSolution = new Sudoku.Core.Sudoku();
                var rowStrings = solution.RowIndexes
                    .Select(rowIndex => internalRows[rowIndex])
                    .OrderBy(t => t.Item1)
@@ -167,14 +170,14 @@ namespace SolverDLX
                    .Select(value => string.Concat(value))
                    .ToImmutableList();
                for (int i = 0; i < rowStrings.Count; i++) {
-                   Sudoku.Core.Sudoku sudoku = new Sudoku.Core.Sudoku();
 
-                   List<int> mySudoku = sudoku.Cells[int.Parse(rowStrings[i])];
+                   mySudoku[i] = sudoku.Cells[int.Parse(rowStrings[i])];
+                   mySudokuSolution.Cells.Add(mySudoku[i]);
                }
-               return new Sudoku.Core.Sudoku(rowStrings);
+               return mySudokuSolution;
 
-           }*/
-        private static Grid SolutionToGrid(
+           }
+       /* private static Grid SolutionToGrid(
             IReadOnlyList<Tuple<int, int, int, bool>> internalRows,
             Solution solution)
         {
@@ -187,5 +190,6 @@ namespace SolverDLX
                 .ToImmutableList();
             return new Grid(rowStrings);
         }
+        */
     }
 }
