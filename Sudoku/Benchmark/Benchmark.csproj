@@ -15,6 +15,7 @@
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\SolverSMT\SolverSMT.csproj" />
     <ProjectReference Include="..\NorvigSolver\NorvigSolver.csproj" />
+    <ProjectReference Include="..\SolverDLX\SolverDLX.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -704,31 +704,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/timothee/.nuget/packages/": {}
+    "C:\\Users\\nicol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/NorvigSolver.csproj",
+      "projectUniqueName": "C:\\Users\\nicol\\Desktop\\epf-sudoku-MINA\\Sudoku\\NorvigSolver\\NorvigSolver.csproj",
       "projectName": "NorvigSolver",
-      "projectPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/NorvigSolver.csproj",
-      "packagesPath": "/Users/timothee/.nuget/packages/",
-      "outputPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/obj/",
+      "projectPath": "C:\\Users\\nicol\\Desktop\\epf-sudoku-MINA\\Sudoku\\NorvigSolver\\NorvigSolver.csproj",
+      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicol\\Desktop\\epf-sudoku-MINA\\Sudoku\\NorvigSolver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/timothee/.config/NuGet/NuGet.Config"
+        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/Core.csproj": {
-              "projectPath": "/Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/Core/Core.csproj"
+            "C:\\Users\\nicol\\Desktop\\epf-sudoku-MINA\\Sudoku\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\nicol\\Desktop\\epf-sudoku-MINA\\Sudoku\\Core\\Core.csproj"
             }
           }
         }
@@ -759,7 +761,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

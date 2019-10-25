@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Sudoku",
-    "\\Sudoku\\Benchmark\\bin",
-    "\\Sudoku\\Benchmark\\Properties",
-    "\\Sudoku\\Benchmark\\Properties\\PublishProfiles",
-    "\\Sudoku\\CSP_IronPyton",
-    "\\Sudoku\\CSP_IronPyton\\external"
+    "\\Sudoku\\SolverDLX"
   ],
-  "SelectedNode": "\\Sudoku\\Sudoku.sln",
+  "SelectedNode": "\\Sudoku\\SolverDLX\\Grid.cs",
   "PreviewInSolutionExplorer": false
 }

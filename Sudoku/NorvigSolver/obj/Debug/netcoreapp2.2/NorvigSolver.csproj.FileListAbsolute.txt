@@ -11,3 +11,16 @@
 /Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/obj/Debug/netcoreapp2.2/NorvigSolver.csproj.CopyComplete
 /Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/obj/Debug/netcoreapp2.2/NorvigSolver.dll
 /Users/timothee/Desktop/5A/Intelligence Artificielle/epf-sudoku-MINA/Sudoku/NorvigSolver/obj/Debug/netcoreapp2.2/NorvigSolver.pdb
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\bin\Debug\netcoreapp2.2\NorvigSolver.deps.json
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\bin\Debug\netcoreapp2.2\NorvigSolver.runtimeconfig.json
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\bin\Debug\netcoreapp2.2\NorvigSolver.runtimeconfig.dev.json
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\bin\Debug\netcoreapp2.2\NorvigSolver.dll
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\bin\Debug\netcoreapp2.2\NorvigSolver.pdb
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\bin\Debug\netcoreapp2.2\Core.dll
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\bin\Debug\netcoreapp2.2\Core.pdb
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\obj\Debug\netcoreapp2.2\NorvigSolver.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\obj\Debug\netcoreapp2.2\NorvigSolver.AssemblyInfoInputs.cache
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\obj\Debug\netcoreapp2.2\NorvigSolver.AssemblyInfo.cs
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\obj\Debug\netcoreapp2.2\NorvigSolver.csproj.CopyComplete
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\obj\Debug\netcoreapp2.2\NorvigSolver.dll
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\NorvigSolver\obj\Debug\netcoreapp2.2\NorvigSolver.pdb
