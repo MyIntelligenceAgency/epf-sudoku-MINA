@@ -1,0 +1,13 @@
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\obj\Debug\netcoreapp2.2\SolverDLX.csprojAssemblyReference.cache
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\obj\Debug\netcoreapp2.2\SolverDLX.AssemblyInfoInputs.cache
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\obj\Debug\netcoreapp2.2\SolverDLX.AssemblyInfo.cs
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\bin\Debug\netcoreapp2.2\SolverDLX.deps.json
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\bin\Debug\netcoreapp2.2\SolverDLX.runtimeconfig.json
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\bin\Debug\netcoreapp2.2\SolverDLX.runtimeconfig.dev.json
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\bin\Debug\netcoreapp2.2\SolverDLX.dll
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\bin\Debug\netcoreapp2.2\Core.dll
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\bin\Debug\netcoreapp2.2\Core.pdb
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\obj\Debug\netcoreapp2.2\SolverDLX.csproj.CopyComplete
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\bin\Debug\netcoreapp2.2\SolverDLX.pdb
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\obj\Debug\netcoreapp2.2\SolverDLX.dll
+C:\Users\nicol\Desktop\epf-sudoku-MINA\Sudoku\SolverDLX\obj\Debug\netcoreapp2.2\SolverDLX.pdb
