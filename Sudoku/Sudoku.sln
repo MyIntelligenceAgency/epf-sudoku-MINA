@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{1C04ED3F-EB31-46D2-BA85-DAA8D2C19F49}"
 EndProject
@@ -12,7 +12,9 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CSP_IronPyton", "CSP_IronPy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorvigSolver", "NorvigSolver\NorvigSolver.csproj", "{C39003B7-3B6D-4341-8C47-5BE628E769C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolverDLX", "SolverDLX\SolverDLX.csproj", "{CB7D10BC-F91D-411E-B4F3-1810CB88DE6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolverDLX", "SolverDLX\SolverDLX.csproj", "{CB7D10BC-F91D-411E-B4F3-1810CB88DE6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolverNeuralNet", "SolverNeuralNet\SolverNeuralNet.csproj", "{AAA78C94-7ED7-4D8B-979A-0EB40149E822}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{CB7D10BC-F91D-411E-B4F3-1810CB88DE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB7D10BC-F91D-411E-B4F3-1810CB88DE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB7D10BC-F91D-411E-B4F3-1810CB88DE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA78C94-7ED7-4D8B-979A-0EB40149E822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA78C94-7ED7-4D8B-979A-0EB40149E822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA78C94-7ED7-4D8B-979A-0EB40149E822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA78C94-7ED7-4D8B-979A-0EB40149E822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
